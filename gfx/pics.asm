@@ -1,7 +1,3 @@
-; PokemonPicPointers and UnownPicPointers are assumed to start at the same
-; address, but in different banks. This is enforced in layout.link.
-
-
 SECTION "Pic Pointers", ROMX
 
 INCLUDE "data/pokemon/pic_pointers.asm"
